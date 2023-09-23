@@ -1,0 +1,12 @@
+num = [ ]
+for i in range (10):
+    x = input("enter value : ")
+    num.append(x)
+
+x = num[0]
+
+for y in num:
+  if y > x:
+   x = y
+
+print(x)
