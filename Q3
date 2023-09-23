@@ -1,0 +1,3 @@
+x = int(input("enter Celsius temperature: "))
+y = ((9/5)*x+32)
+print("temperature in Fahren40heit is: ", y)
