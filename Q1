@@ -1,0 +1,10 @@
+name = " "
+employees = { }
+while(name != 'no'):
+    name = input("enter  employee name: ")
+    if (name == 'no'):
+        break
+    salary = input("enter employee salarie: ")
+    employees[name] = salary
+
+print(employees)
